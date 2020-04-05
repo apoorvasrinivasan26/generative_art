@@ -7,12 +7,14 @@ output: html_document
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
-```
 
-```{r}
 set.seed(345)
 library(ggplot2)
 library(RColorBrewer)
+```
+
+```{r}
+
 ngroup=25
 names=paste("G_",seq(1,ngroup),sep="")
 DAT=data.frame()
