@@ -9,6 +9,8 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+This code is adapted from rbloggers website: https://www.r-bloggers.com/turn-a-square-generative-art/
+
 ## Generating a grid of squares
 
 ```{r}
