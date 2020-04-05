@@ -7,11 +7,13 @@ output: html_document
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(ggplot2)
+
 ```
 
 ```{r}
-library(tidyverse)
-library(ggplot2)
+
 df <- data.frame(x=0, y=0)
 for (i in 2:250){
   df[i,1] <- df[i-1,1]+((0.69)^i)*cos(i)
