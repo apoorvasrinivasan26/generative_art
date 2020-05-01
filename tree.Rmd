@@ -1,0 +1,19 @@
+---
+title: "tree"
+author: "Apoorva Srinivasan"
+date: "4/30/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(flametree)
+
+```
+
+```{r}
+dat <- flametree_grow(seed = 4, time = 13) # data structure
+img <- flametree_plot(tree = dat)          # ggplot object
+plot(img)
+```
+
