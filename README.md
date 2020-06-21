@@ -2,3 +2,6 @@
 
 
 This repo contains code for some generative art with R
+
+
+![squares](https://github.com/apoorvasrinivasan26/generative_art/blob/master/squares.png)
